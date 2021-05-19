@@ -2,64 +2,235 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    return (
+        <>
+            <Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+                <title>Ibrahim BIDI</title>
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+            </Head>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+            <body>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+                <div className="wrapper">
+                    <div className="header">
+                        <div className="photo" style={{display:"none"}}>
+                        </div>
+                        <h1 className="quote">Wendy-Ho</h1>
+                        <h3>- 前端設計師 -</h3>
+                    </div>
+                    <div className="side">
+                        <div className="photo">
+                        </div>
+                        <div className="info">
+                            <h2>基本資訊</h2>
+                            <div className="line"></div>
+                            <p>姓名： 何品萱 Wendy</p>
+                            <p>年齡： 24歲</p>
+                            <p>手機：xxxxxxxxx</p>
+                            <p>信箱： <a href="mailto:cs52523513@gmail.com">cs52523513@gmail.com <i className="fa fa-link"></i></a></p>
+                            <p>作品： <a target="_blank" href="https://codepen.io/Wendy-Ho">CodePen
+        <i className="fa fa-link"></i> [必點]</a></p>
+                            <p>(↑眾多"純手刻"有趣小作品)</p>
+                        </div>
+                        <div className="skills">
+                            <h2>程式語言</h2>
+                            <div className="line"></div>
+                            <p>HTML5 ［85%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <p>CSS3 / SCSS ［90%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <p>Javascript / jQuery ［40%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <br /><br />
+                            <h2>開發工具</h2>
+                            <div className="line"></div>
+                            <p>Subversion ［90%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <p>Adobe XD ［80%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <p>Sublime ［80%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <p>Photoshop ［90%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <p>Illustrator ［90%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <p>InDesign ［70%］</p>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box-ck"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <span className="box"></span>
+                            <h2>學習研究中</h2>
+                            <div className="line"></div>
+                            <p>Javascript</p>
+                            <p>Vue.js</p>
+                            <p>Git</p>
+                            <p>Github</p>
+                            <p>WordPress</p>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+                            <h2>興趣</h2>
+                            <div className="line"></div>
+                            <p>小提琴</p>
+                            <p>吉他</p>
+                            <p>游泳</p>
+                        </div>
+                    </div>
+                    <div className="content">
+                        <h2>關於Wendy</h2>
+                        <div className="line"></div>
+                        <p>我是「何品萱」，設計是我所學的專業，網頁設計是我的興趣，設計與網頁技術同時擁有的我，喜歡打破傳統網頁排版，持續創新，將天馬行空的設計手刻實現在網頁上，並抱持著熱誠與積極態度接受各種挑戰。</p>
+                        <h2>能力經驗</h2>
+                        <div className="line"></div>
+                        <h3><i className="fa fa-tv"></i> 網頁</h3>
+                        <li>與數十位前後端工程師、設計師配合開發專案經驗</li>
+                        <li>政府單位無障礙網頁設計經驗 (通過國家通訊委員會無障礙網頁2.0 A級標章)</li>
+                        <li>SEO搜尋引擎優化、Google關鍵字</li>
+                        <li>使用Bootstrap4 / UIkit框架開發網頁經驗</li>
+                        <li>使用HTML5、SCSS、jQuery設計RWD網頁經驗</li>
+                        <li>帶領設計師/實習生團隊建置網站及教學經驗</li>
+                        <li>使用IIS建置網站經驗</li>
+                        <li>使用FTP、遠端部署程式經驗</li>
+                        <li>BI軟體介面美化經驗(KNIME、MicroStrategy、Tableau、IBM Cognos)</li>
+                        <h3><i className="fa fa-paint-brush"></i> 設計</h3>
+                        <li>使用Adobe XD設計UI/UX系統介面經驗</li>
+                        <li>展場行銷活動規劃、場佈設計經驗</li>
+                        <li>有設計接案經驗</li>
+                        <li>企業CIS識別/產品Logo設計</li>
+                        <li>視覺化icon套組設計</li>
+                        <li>視覺化產品型錄規劃設計</li>
+                        <li>企業識別PPT母片底版設計</li>
+                        <h3><i className="fa fa-comments"></i> 管理/溝通</h3>
+                        <li>運用Mantis專案管理系統擔任專案管理者經驗</li>
+                        <li>跨部門進行產品需求、行銷溝通經驗(業務、顧問、客戶)</li>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+                        <h2>工作經歷</h2>
+                        <div className="line"></div>
+                        <ul className="timeline">
+                            <div className="event" data-date="3.8年 now-2016">
+                                <h3>台灣析數-視覺化介面設計師</h3>
+                            </div>
+                            <h4>Web -- 網頁</h4>
+                            <li><a target="_blank" href="http://www.asia-analytics.com.tw/tw/index.jsp">台灣析數官網-企業形象網站規劃設計 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="http://psdatatech.com/cn/index.asp">普策數官網-國際大陸企業形象網站規劃設計 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/asiaanalytics/posts/2568132533268761">衛生福利品質指標推廣徵文競賽 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://search.ncfta.gov.tw/search/index">傳藝資源網-政府機關無障礙網頁設計[限館內瀏覽] <i className="fa fa-link"></i></a></li>
+                            <h4>Exhibition -- 展場行銷佈置規劃設計</h4>
+                            <li><a target="_blank" href="https://www.facebook.com/asiaanalytics/posts/2568132533268761">衛生福利部品質指標推廣徵文競賽成果發表暨頒獎典禮 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/asiaanalytics/posts/2519154764833205">泰國DIGITAL THAILAND BIG BANG展覽 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/asiaanalytics/posts/2489240054491343">國際大廠 AIoT Taiwan 展智慧應用方案展覽 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/asiaanalytics/posts/2396643133751036">2019智慧製造與監控辨識展覽會 <i className="fa fa-link"></i></a></li>
+                            <h4>Design -- 型錄</h4>
+                            <li><a target="_blank" href="https://github.com/Wendy145/wendy/blob/master/design/seafood.pdf">幸鮮水產年菜套組型錄 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/Wendy145/wendy/blob/master/design/AAT_tw.pdf">台灣析數公司型錄 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/Wendy145/wendy/blob/master/design/iPASP_tw.pdf">iPASP產品型錄 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/Wendy145/wendy/blob/master/design/iCAP_tw.pdf">iCAP產品型錄 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/Wendy145/wendy/blob/master/design/KNIME_Server_tw.pdf">KNIME Sever產品型錄 <i className="fa fa-link"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/Wendy145/wendy/blob/master/design/PS_IMAGO_tw.pdf">PS IMAGO產品型錄 <i className="fa fa-link"></i></a></li>
+                            <div className="event" data-date="2.5年 2013-2016">
+                                <h3>乾杯集團一風堂-餐飲服務內/外場工讀生</h3>
+                            </div>
+                            <div className="event" data-date="3年 2012-2014">
+                                <h3>順豐速運-財務部工讀生</h3>
+                            </div>
+                        </ul>
+                        <h2>學歷</h2>
+                        <div className="line"></div>
+                        <ul className="timeline">
+                            <div className="event" data-date="2016-2012">
+                                <h3>德明財經科技大學 - 多媒體設計</h3>
+                                <li><a target="_blank" href="https://contest.cpmah.org.tw/award/2015/web/C2015b041/index.html">2015全國慈善/科技/人文網頁設計比賽 慈善組 第一名 <i className="fa fa-link"></i></a></li>
+                            </div>
+                            <div className="event" data-date="2012-2009">
+                                <h3>金甌女中 - 資料處理科</h3>
+                                <li><a target="_blank" href="http://webftp.cogsh.tp.edu.tw/sallywei/homework/web/danshui/html/1-1.html">2012全國慈善/科技/人文網頁設計比賽 人文組 第三名 <i className="fa fa-link"></i></a>
+                                    <li>技藝優良榮獲「傑出市長獎」畢業</li>
+                                    <li>考取20張專業證照 全校最多</li>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+            </body>
+        </>
+    )
 }
