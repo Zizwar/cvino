@@ -44,7 +44,7 @@ html {
   margin-top: 20px;
   border-radius: 100%;
   background-color: #fff;
-  background-image: url("https://gravatar.com/avatar/665b562c5ca5b9b82e71367f526f5b62?s=512&d=https://static.codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png");
+  background-image: url("/avatar/ibrahim_bidi.jpg");
   background-size: cover;
   border: 10px #ffc107 solid;
 }
