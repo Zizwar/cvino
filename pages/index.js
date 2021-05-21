@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import Skill from '../component/skill';
+import { cv } from '../db/cv';
 export default function Home() {
     return (
         <>
@@ -16,7 +17,7 @@ export default function Home() {
 
                 <div className="wrapper">
                     <div className="header">
-                        <div className="photo" style={{display:"none"}}>
+                        <div className="photo" style={{ display: "none" }}>
                         </div>
                         <h1 className="quote">Wendy-Ho</h1>
                         <h3>- 前端設計師 -</h3>
@@ -36,20 +37,11 @@ export default function Home() {
                             <p>(↑眾多"純手刻"有趣小作品)</p>
                         </div>
                         <div className="skills">
-                            <h2>程式語言</h2>
-                            <div className="line"></div>
-                            <p>HTML5 ［85%］</p>
-                            <span className="box-ck"></span>
-                            <span className="box-ck"></span>
-                            <span className="box-ck"></span>
-                            <span className="box-ck"></span>
-                            <span className="box-ck"></span>
-                            <span className="box-ck"></span>
-                            <span className="box-ck"></span>
-                            <span className="box-ck"></span>
-                            <span className="box"></span>
-                            <span className="box"></span>
-                            <p>CSS3 / SCSS ［90%］</p>
+                            {cv.skills.map(({ name = '', skill = [] }, index) => <Skill key={index} data={{ name, skill }} />)}
+
+
+
+                            <p>---- / SCSS ［90%］</p>
                             <span className="box-ck"></span>
                             <span className="box-ck"></span>
                             <span className="box-ck"></span>
