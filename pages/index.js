@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Skill from '../component/skill';
+import Experience from '../component/experience';
 import { cv } from '../db/cv';
 export default function Home() {
     return (
@@ -19,27 +20,23 @@ export default function Home() {
                     <div className="header">
                         <div className="photo" style={{ display: "none" }}>
                         </div>
-                        <h1 className="quote">Wendy-Ho</h1>
-                        <h3>- 前端設計師 -</h3>
+                        <h1 className="quote">{cv.name}</h1>
+                        <h3>- {cv.subName} -</h3>
                     </div>
                     <div className="side">
                         <div className="photo">
                         </div>
                         <div className="info">
-                            <h2>基本資訊</h2>
+                            <h2>{cv.info}</h2>
                             <div className="line"></div>
-                            <p>姓名： 何品萱 Wendy</p>
-                            <p>年齡： 24歲</p>
-                            <p>手機：xxxxxxxxx</p>
-                            <p>信箱： <a href="mailto:cs52523513@gmail.com">cs52523513@gmail.com <i className="fa fa-link"></i></a></p>
-                            <p>作品： <a target="_blank" href="https://codepen.io/Wendy-Ho">CodePen
-        <i className="fa fa-link"></i> [必點]</a></p>
-                            <p>(↑眾多"純手刻"有趣小作品)</p>
+                            <p>{cv.age}</p>
+                            <p>{cv.birth}</p>
+                            <p>{cv.mobile}</p>
+                            <p> <a href={`mailto:${cv.mail}`}>{cv.mailbox} <i className="fa fa-link"></i></a></p>
+
                         </div>
                         <div className="skills">
                             {cv.skills.map(({ name = '', skill = [] }, index) => <Skill key={index} data={{ name, skill }} />)}
-
-
 
                             <p>---- / SCSS ［90%］</p>
                             <span className="box-ck"></span>
@@ -147,32 +144,14 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="content">
-                        <h2>關於Wendy</h2>
+                        <h2>{cv.aboutMe[0]}</h2>
                         <div className="line"></div>
-                        <p>我是「何品萱」，設計是我所學的專業，網頁設計是我的興趣，設計與網頁技術同時擁有的我，喜歡打破傳統網頁排版，持續創新，將天馬行空的設計手刻實現在網頁上，並抱持著熱誠與積極態度接受各種挑戰。</p>
-                        <h2>能力經驗</h2>
+                        <p>{cv.aboutMe[1]}</p>
+
+                        <h2>{cv.experiences.title}</h2>
                         <div className="line"></div>
-                        <h3><i className="fa fa-tv"></i> 網頁</h3>
-                        <li>與數十位前後端工程師、設計師配合開發專案經驗</li>
-                        <li>政府單位無障礙網頁設計經驗 (通過國家通訊委員會無障礙網頁2.0 A級標章)</li>
-                        <li>SEO搜尋引擎優化、Google關鍵字</li>
-                        <li>使用Bootstrap4 / UIkit框架開發網頁經驗</li>
-                        <li>使用HTML5、SCSS、jQuery設計RWD網頁經驗</li>
-                        <li>帶領設計師/實習生團隊建置網站及教學經驗</li>
-                        <li>使用IIS建置網站經驗</li>
-                        <li>使用FTP、遠端部署程式經驗</li>
-                        <li>BI軟體介面美化經驗(KNIME、MicroStrategy、Tableau、IBM Cognos)</li>
-                        <h3><i className="fa fa-paint-brush"></i> 設計</h3>
-                        <li>使用Adobe XD設計UI/UX系統介面經驗</li>
-                        <li>展場行銷活動規劃、場佈設計經驗</li>
-                        <li>有設計接案經驗</li>
-                        <li>企業CIS識別/產品Logo設計</li>
-                        <li>視覺化icon套組設計</li>
-                        <li>視覺化產品型錄規劃設計</li>
-                        <li>企業識別PPT母片底版設計</li>
-                        <h3><i className="fa fa-comments"></i> 管理/溝通</h3>
-                        <li>運用Mantis專案管理系統擔任專案管理者經驗</li>
-                        <li>跨部門進行產品需求、行銷溝通經驗(業務、顧問、客戶)</li>
+
+                        {cv.experiences.items.map((item, index) => <Experience key={index} data={item} />)}
 
                         <h2>工作經歷</h2>
                         <div className="line"></div>

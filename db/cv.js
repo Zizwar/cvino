@@ -1,10 +1,20 @@
 export const cv = {
-    name: "",
-    subText: "",
-    tel: "",
-    mail: "",
-    avatar: "",
-    age: "",
+    name: "Ibrahim BIDI",
+    mail: "to@ibrahim.contact",
+    subName: "JavaScript ❣️",
+
+    aboutMe: ["About Ibrahim ", `I am Ibrahim BIDI, design is my major, web design is my interest, design and web technology at the same time own me, like to break the traditional page typography, continuous innovation, the sky-high design hand-carved to achieve on the web page, and with enthusiasm and positive attitude to accept various challenges.`],
+    mobile: "Mobile: +212648188181",
+    mailbox: "mailbox: to@ibrahim.contact",
+    avatar: "/avatar/ibrahim_bidi.jpg",
+    birth: "Birth: 1979",
+    info: "Basic information",
+    nameT: "Name: Ibrahim BIDI",
+
+    site: [{
+        text: "",
+        url: "",
+    },],
     skills: [
         {
             name: "Programming",
@@ -17,7 +27,7 @@ export const cv = {
                     { name: "JQuery", percent: 45 }
                 ]
         },
-            {
+        {
             name: "Trad",
             skill:
                 [
@@ -29,5 +39,40 @@ export const cv = {
                 ]
         },
 
-    ]
+
+
+    ],
+
+    experiences: {
+        title: "Competence experience",
+        items: [
+            {
+                name: "Web page",
+                icon: "fa fa-tv",
+                experience: ["Work with dozens of front and rear engineers and designers to develop project experience",
+                    "Experience in accessible web design for government units (through the National Communications Commission barrier-free web page 2.0 A-level stamp)",
+                    "SEO search engine optimization, Google keywords",
+                    "Experience developing web pages using the Bootstrap4/UIkit framework",
+                    "Experience designing RWD web pages using HTML5, SCSS, and jQuery",
+                    "Lead a team of designers/interns to build websites and teaching experience",
+                    "Experience building websites using IIS",
+                    "Experience with FTP, remote deployer",
+                    "BI Software Interface Beautification Experience (KNIME, MicroStrategy, Tableau, IBM Cognos)"]
+            },
+            {
+                name: "Devs",
+                icon: "fa fa-paint-brush",
+                experience: ["Experience designing UI/UX system interfaces with Adobe XD",
+                    "Exhibition marketing campaign planning, field cloth design experience",
+                    "Experience in designing cases",
+                    "Enterprise CIS Identification/Product Logo Design",
+                    "Visual icon set design",
+                    "Visualize product catalog planning design",
+                    "Enterprise identification PPT master base design"]
+            },
+
+        ]
+    }
+
 }
+
