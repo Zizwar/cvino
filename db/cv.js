@@ -1,6 +1,6 @@
 export const cv = {
     name: "Ibrahim BIDI",
-    mail: "to@ibrahim.contact",
+    mail: "mail@ibrahim.contact",
     subName: "JavaScript ❣️",
 
     aboutMe: ["About Ibrahim ", `I am Ibrahim BIDI, design is my major, web design is my interest, design and web technology at the same time own me, like to break the traditional page typography, continuous innovation, the sky-high design hand-carved to achieve on the web page, and with enthusiasm and positive attitude to accept various challenges.`],
