@@ -5,7 +5,7 @@ export const cv = {
 
     aboutMe: ["About Ibrahim ", `I am Ibrahim BIDI, design is my major, web design is my interest, design and web technology at the same time own me, like to break the traditional page typography, continuous innovation, the sky-high design hand-carved to achieve on the web page, and with enthusiasm and positive attitude to accept various challenges.`],
     mobile: "Mobile: +212648188181",
-    mailbox: "mailbox: to@ibrahim.contact",
+    mailbox: "mailbox: mail@ibrahim.contact",
     avatar: "/avatar/ibrahim_bidi.jpg",
     birth: "Birth: 1979",
     info: "Basic information",
@@ -40,6 +40,30 @@ export const cv = {
         },
 
 
+
+    ],
+    works: [{
+        name: "test name project1",
+        date: "2000 - 2003",
+        items: [
+            {
+                name: "",
+                events: [{
+                    text: "text text",
+                }, {
+                    text: "text text2",
+                    link: "http://google.com"
+                }, {
+                    text: "text text",
+                    link: "http://google.com"
+                }, {
+                    text: "text text3",
+                    link: "http://google.com"
+                },]
+            }
+
+        ]
+    }
 
     ],
 

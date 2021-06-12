@@ -7,13 +7,14 @@ export default function Skill({ data: { name = '', skill = [] } }) {
                 const maxDivs = parseInt(percent / 10);
                 const minDivs = 10 - maxDivs;
 
-                return (<>
+                return (
+                <div key={`dv${index}`}>
                     <p>{name} ［{percent}%］</p>
                     {[...Array(maxDivs).keys()].map((_, index) =>
                         <span key={index} className="box-ck"></span>)}
                     {[...Array(minDivs).keys()].map((_, index) =>
                         <span key={index} className="box"></span>)}
-                </>);
+                </div>);
             })}
 
         </>);
