@@ -3,7 +3,9 @@ export const cv = {
     mail: "mail@ibrahim.contact",
     subName: "JavaScript ❣️",
 
-    aboutMe: ["About Ibrahim ", `I am Ibrahim BIDI, design is my major, web design is my interest, design and web technology at the same time own me, like to break the traditional page typography, continuous innovation, the sky-high design hand-carved to achieve on the web page, and with enthusiasm and positive attitude to accept various challenges.`],
+    aboutMe: ["About Ibrahim ", `I'm Ibrahim Bidi, the programming world is my specialty, everything related to JavaScript you will find me there, in the Frontend, Backend, on mobile and desktop, in robotics and blockchain, JavaScript has become everywhere.
+I bet on javascript 22 years ago, it was on Earth🌍 and now it's in space🚀
+JS🧡.`],
     mobile: "Mobile: +212648188181",
     mailbox: "mailbox: mail@ibrahim.contact",
     avatar: "/avatar/ibrahim_bidi.jpg",
@@ -17,25 +19,55 @@ export const cv = {
     },],
     skills: [
         {
-            name: "Programming",
+            name: "V8",
             skill:
                 [
-                    { name: "wino", percent: 85 },
-                    { name: "CSS3 / SCSS", percent: 90 },
-                    { name: "Bootstrap", percent: 75 },
-                    { name: "Typescript", percent: 60 },
-                    { name: "JQuery", percent: 45 }
+                    { name: "DenoLand", percent: 95 },
+                    { name: "NodeJs", percent: 90 }
                 ]
         },
         {
-            name: "Trad",
+            name: "Frameworks & Libs",
             skill:
                 [
-                    { name: "Binance api", percent: 10 },
-                    { name: "COINHUNT", percent: 90 },
-                    { name: "ApiKExCoin", percent: 20 },
-                    { name: "Typescript", percent: 70 },
-                    { name: "JQuery", percent: 35 }
+                    { name: "Reactjs/Nextjs/aleph", percent: 90 },
+                    { name: "React Native", percent: 95 },
+                     { name: "React Native", percent: 95 },
+                ]
+        },
+         {
+            name: "Sql/NoSql",
+            skill:
+                [
+                    { name: "Mysql/Postgresql/Sqlite", percent: 85 },
+                    { name: "MongoDB", percent: 95 }
+                ]
+        },
+           {
+            name: "Sql & NoSql",
+            skill:
+                [
+                    { name: "Mysql/Postgresql/Sqlite", percent: 85 },
+                    { name: "MongoDB", percent: 95 }
+                ]
+        },
+         {
+            name: "Robotics & IoT",
+            skill:
+                [
+                    { name: "Johnny-Five", percent: 80 },
+                    { name: "Cylonjs", percent: 70 },
+                     { name: "NodeBots", percent: 70 },
+                  
+                ]
+        },
+          {
+            name: "Blockchain & Dapps",
+            skill:
+                [
+                    { name: "Web3", percent: 70 },
+                    { name: "Ethersjs", percent: 70 },
+                    { name: "Solidity", percent: 60 }
                 ]
         },
 
