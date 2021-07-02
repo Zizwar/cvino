@@ -32,23 +32,16 @@ JS🧡.`],
                 [
                     { name: "Reactjs/Nextjs/aleph", percent: 90 },
                     { name: "React Native", percent: 95 },
-                     { name: "React Native", percent: 95 },
-                ]
         },
-         {
-            name: "Sql/NoSql",
-            skill:
-                [
-                    { name: "Mysql/Postgresql/Sqlite", percent: 85 },
-                    { name: "MongoDB", percent: 95 }
-                ]
-        },
+    
            {
-            name: "Sql & NoSql",
+            name: "Sql & NoSql & WS",
             skill:
                 [
-                    { name: "Mysql/Postgresql/Sqlite", percent: 85 },
-                    { name: "MongoDB", percent: 95 }
+                    { name: "Mysql / Postgresql / Sqlite", percent: 85 },
+                    { name: "MongoDB", percent: 95 },
+                    { name: "Realme", percent: 80 },
+                    { name: "Firebase / pushDB / Redis / Websocket", percent: 90 }
                 ]
         },
          {
