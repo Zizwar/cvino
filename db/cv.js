@@ -32,6 +32,7 @@ JS🧡.`],
                 [
                     { name: "Reactjs/Nextjs/aleph", percent: 90 },
                     { name: "React Native", percent: 95 },
+                    ]
         },
     
            {
