@@ -1,9 +1,16 @@
-export default function Experience({ data: { name = '', experience = [], icon = "fa fa-tv" } }) {
-    return (<>
-        <h3><i className={icon}></i> {name}</h3>
+export default function Experience({ data }) {
+    if (!data) return null;
+    const { name = '', icon = "fa fa-tv" } = data;
+    const experienceList = data.experience || data.experienc || [];
 
-        {experience.map((item, index) => <li key={index}>{item}</li>)}
-
-    </>
-    )
+    return (
+        <div style={{ marginBottom: "20px" }}>
+            <h3><i className={icon}></i> {name}</h3>
+            <ul>
+                {experienceList.map((item, index) => (
+                    <li key={index}>{item}</li>
+                ))}
+            </ul>
+        </div>
+    );
 }
