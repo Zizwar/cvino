@@ -1,15 +1,16 @@
 {
   "name": "Brahim BIDI",
   "mail": "zip.exe@gmail.com",
-  "subName": "JavaScript ❣️",
+  "subName": "JavaScript & Deno Architect | AI & Automation Systems",
   "aboutMe": [
     "About Ibrahim",
-    "Hello! I'm Ibrahim Bidi, a passionate and experienced developer specializing in JavaScript. From Frontend to Backend, mobile to desktop, robotics to blockchain, JavaScript is my realm. I have been dedicated to this language for 22 years, watching it grow from humble beginnings on Earth 🌍 to its expansive presence in space 🚀. JS is my heart and soul 🧡\n Over the years, I've worked on numerous projects, contributed to the open-source community, and developed applications that have positively impacted many users. My journey began with creating the first Arabic keyboard for Windows 98 and has evolved into developing complex systems for various platforms."
+    "Hello! I'm Ibrahim Bidi, a Senior JavaScript & Deno Architect, AI Systems Engineer, and Automation Specialist with 22+ years of hands-on software development experience. From V8 engine internals to distributed microservices, autonomous AI agents, algorithmic trading bots, and real-time WebSocket platforms, JavaScript and TypeScript are my core domain.\n\nOver the past two decades, I have architected high-concurrency systems, contributed extensively to open-source, and launched live platforms spanning AI music streaming (SunoMA), multi-account messaging automation (WMAM), AI developer browsers (NIABrowser), and algorithmic trading systems. My journey started with pioneering system tools for Windows 98/XP (Key4Arab, Tifino) and evolved into architecting scalable modern web apps, cloud runtimes, and autonomous agent infrastructure."
   ],
-  "mobile": "Mobile: +212.67.127.56665",
+  "mobile": "Mobile: +212 648-188181",
+  "phoneRaw": "0648188181",
   "mailbox": "mailbox: zip.exe@gmail.com",
   "avatar": "/avatar/ibrahim_bidi.jpg",
-  "info": "Basic information",
+  "info": "Basic Information",
   "nameT": "Name: Brahim BIDI",
   "links": [
     {
@@ -18,155 +19,198 @@
       "icon": "fa fa-github"
     },
     {
-      "title": "facebook",
-      "url": "https://web.facebook.com/groups/JavaScript.Programming",
-      "icon": "fa fa-facebook"
-    },
-    {
       "title": "linkedin",
       "url": "https://www.linkedin.com/in/ibrahim-bidi-07a7b620",
       "icon": "fa fa-linkedin"
     },
     {
-      "title": "android",
-      "url": "https://apkpure.com/ar/%D9%85%D8%B5%D8%AD%D9%81-%D9%85%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85/wino.ma.mushaf.mauri",
-      "icon": "fa fa-android"
+      "title": "facebook",
+      "url": "https://web.facebook.com/groups/JavaScript.Programming",
+      "icon": "fa fa-facebook"
+    },
+    {
+      "title": "trading bot",
+      "url": "https://github.com/Zizwar/deno-trading-bot",
+      "icon": "fa fa-line-chart"
+    },
+    {
+      "title": "mushaf",
+      "url": "https://mushaf.ma",
+      "icon": "fa fa-book"
     },
     {
       "title": "email",
-      "url": "mailto:zip.exe@googlemail.com",
-      "icon": "fa fa-at"
+      "url": "mailto:zip.exe@gmail.com",
+      "icon": "fa fa-envelope"
     }
   ],
   "skills": [
     {
-      "name": "V8",
+      "name": "Runtimes & V8 Internals",
       "skill": [
         {
-          "name": "DenoLand",
-          "percent": 95
+          "name": "Deno / DenoLand / TypeScript",
+          "percent": 98
         },
         {
-          "name": "NodeJs",
-          "percent": 95
-        }
-      ]
-    },
-    {
-      "name": "Frameworks & Libs",
-      "skill": [
-        {
-          "name": "Nextjs/Fresh",
-          "percent": 90
+          "name": "Node.js & Async I/O",
+          "percent": 98
         },
         {
-          "name": "React Native",
-          "percent": 95
-        }
-      ]
-    },
-    {
-      "name": "Sql & NoSql & WS",
-      "skill": [
-        {
-          "name": "Mysql / Postgresql / Sqlite",
-          "percent": 85
-        },
-        {
-          "name": "MongoDB",
-          "percent": 95
-        },
-        {
-          "name": "Realme",
-          "percent": 80
-        },
-        {
-          "name": "Firebase / pushDB / Redis / Websocket",
+          "name": "V8 Engine Internals & WASM",
           "percent": 90
         }
       ]
     },
     {
-      "name": "Robotics & IoT",
+      "name": "AI, MCP & Autonomous Agents",
       "skill": [
         {
-          "name": "Johnny-Five",
-          "percent": 80
+          "name": "LLM Orchestration & AI Agents",
+          "percent": 95
         },
         {
-          "name": "Cylonjs",
-          "percent": 70
+          "name": "MCP (Model Context Protocol)",
+          "percent": 92
         },
         {
-          "name": "NodeBots",
-          "percent": 70
+          "name": "Multi-Account & Chat Automation",
+          "percent": 96
         }
       ]
     },
     {
-      "name": "Blockchain & Dapps",
+      "name": "Full-Stack Frameworks & Libs",
       "skill": [
         {
-          "name": "Web3",
-          "percent": 70
+          "name": "Next.js / React.js / Fresh",
+          "percent": 95
         },
         {
-          "name": "Ethersjs",
-          "percent": 70
+          "name": "React Native (Mobile)",
+          "percent": 92
         },
         {
-          "name": "Solidity",
-          "percent": 60
+          "name": "REST, GraphQL & Streaming APIs",
+          "percent": 95
+        }
+      ]
+    },
+    {
+      "name": "Databases & Realtime Systems",
+      "skill": [
+        {
+          "name": "MongoDB / Redis / pushDB",
+          "percent": 95
+        },
+        {
+          "name": "PostgreSQL / MySQL / SQLite",
+          "percent": 90
+        },
+        {
+          "name": "WebSockets & Event Streams",
+          "percent": 96
+        }
+      ]
+    },
+    {
+      "name": "Algorithmic Trading & DApps",
+      "skill": [
+        {
+          "name": "Quantitative Trading Strategies",
+          "percent": 92
+        },
+        {
+          "name": "Exchange APIs & Order Execution",
+          "percent": 90
+        },
+        {
+          "name": "Web3 & Smart Contract Automation",
+          "percent": 80
         }
       ]
     }
   ],
   "works": [
     {
-      "name": "Key Projects",
+      "name": "Featured Production Projects & Platforms",
       "date": "2000 - Present",
       "items": [
         {
-          "name": "Key4Arab",
+          "name": "SunoMA — Endless AI Radio & Music Studio",
           "events": [
             {
-              "text": "Developed an Arabic keyboard for non-Arabic Windows 98 systems.",
-              "link": ""
+              "text": "Suno.ma: Endless AI procedural radio streaming music across multiple genres.",
+              "link": "https://suno.ma"
+            },
+            {
+              "text": "SunoMA Studio: AI music creation via web, REST API, and LLM assistants over MCP.",
+              "link": "https://suno.homes"
+            },
+            {
+              "text": "Suno-MA GitHub Repository.",
+              "link": "https://github.com/Zizwar/suno-ma"
             }
           ]
         },
         {
-          "name": "WinoScript",
+          "name": "WMAM — WhatsApp Multi-Account Manager & Automation",
           "events": [
             {
-              "text": "Created an Arabic programming framework based on JavaScript.",
+              "text": "Advanced enterprise multi-account WhatsApp management infrastructure with AI-driven smart auto-replies, message scheduling, and WebSocket real-time syncing.",
+              "link": "https://msn.so"
+            }
+          ]
+        },
+        {
+          "name": "NIABrowser — AI-Powered Developer Browser",
+          "events": [
+            {
+              "text": "Specialized developer browser integrating AI chat assistant, live script execution, developer tools, and workflow automation.",
+              "link": "https://niabrowser.vibzcode.com/"
+            }
+          ]
+        },
+        {
+          "name": "VibzCode Pro — Cloud Workspace & IDE",
+          "events": [
+            {
+              "text": "Cloud-based developer environment for rapid code prototyping, real-time testing, and cloud execution.",
+              "link": "https://app.vibzcode.com/"
+            }
+          ]
+        },
+        {
+          "name": "Deno Algorithmic Trading Bot",
+          "events": [
+            {
+              "text": "High-performance quantitative trading bot written in Deno/TypeScript featuring technical indicators, real-time WebSocket market streams, and automated order execution.",
+              "link": "https://github.com/Zizwar/deno-trading-bot"
+            }
+          ]
+        },
+        {
+          "name": "Mushaf Mauri — Digital Quran Platform",
+          "events": [
+            {
+              "text": "Modern digital Quran platform (Warsh narration) with high-fidelity audio streaming, responsive web architecture, and mobile application.",
+              "link": "https://mushaf.ma"
+            }
+          ]
+        },
+        {
+          "name": "WinoScript & Pioneer Software",
+          "events": [
+            {
+              "text": "WinoScript: Created an Arabic programming framework and language abstraction on JavaScript.",
               "link": "https://github.com/Zizwar/winoscript"
-            }
-          ]
-        },
-        {
-          "name": "Tifino",
-          "events": [
+            },
             {
-              "text": "Developed Tifino, an application to support Tifinagh scripts in Windows, which received over 100,000 downloads.",
+              "text": "Tifino: Developed Tifinagh script support for Windows with 100,000+ downloads.",
               "link": "https://code.google.com/archive/p/tifino/"
-            }
-          ]
-        },
-        {
-          "name": "Ayat",
-          "events": [
+            },
             {
-              "text": "Developed the Quran application AYAT 2 for King Saud University.",
-              "link": "https://play.google.com/store/apps/details?id=com.ksu.ayat2&hl=en_US"
-            }
-          ]
-        },
-        {
-          "name": "Terminal*6",
-          "events": [
-            {
-              "text": "Created a system for managing and processing data via SMS or Whatsapp using Node.js and MongoDB."
+              "text": "Key4Arab: Developed system-level Arabic keyboard integration for Windows 98 non-Arabic editions."
             }
           ]
         }
@@ -174,34 +218,46 @@
     }
   ],
   "experiences": {
-    "title": "Competence experience",
+    "title": "Technical Competence & Architecture Experience",
     "items": [
       {
-        "name": "Web Development",
-        "icon": "fa fa-tv",
+        "name": "AI Systems, LLMs & Autonomous Automation",
+        "icon": "fa fa-cogs",
         "experience": [
-          "Worked with dozens of frontend and backend engineers and designers to develop project experience",
-          "Experience in accessible web design for government units (achieving National Communications Commission barrier-free web page 2.0 A-level certification)",
-          "SEO search engine optimization, Google keywords",
-          "Experience developing web pages using the Bootstrap4/UIkit framework",
-          "Experience designing RWD web pages using HTML5, SCSS, and jQuery",
-          "Led a team of designers/interns to build websites and provided teaching experience",
-          "Experience building websites using IIS",
-          "Experience with FTP, remote deployer",
-          "BI Software Interface Beautification Experience (KNIME, MicroStrategy, Tableau, IBM Cognos)"
+          "Architected multi-agent LLM systems and custom MCP (Model Context Protocol) servers for external tools integration",
+          "Engineered high-throughput messaging bots and multi-account automation engines using WebSockets, Puppeteer, and async queue pipelines",
+          "Integrated generative audio, multimodal APIs, and streaming responses into low-latency production workflows",
+          "Built conversational AI tools, prompt optimization frameworks, and self-hosted AI microservices"
         ]
       },
       {
-        "name": "Backend Development & Microservices",
+        "name": "Backend Engineering, Runtimes & Distributed Microservices",
         "icon": "fa fa-server",
         "experience": [
-          "Extensive experience with Node.js and Deno for building scalable server-side applications",
-          "Implemented microservices architecture for several projects, enhancing modularity and performance",
-          "Proficient in using Express.js for creating RESTful APIs",
-          "Experience with database design and management using MongoDB, MySQL, PostgreSQL, and Redis",
-          "Developed and deployed serverless applications using AWS Lambda and Firebase Functions",
-          "Worked on real-time data processing applications using WebSockets and pushDB",
-          "Created secure and efficient authentication systems using JWT and OAuth"
+          "22+ years mastering JavaScript/TypeScript runtimes: deep expertise in Deno, Node.js, and V8 engine execution",
+          "Designed scalable microservices and serverless architectures with Deno Deploy, AWS Lambda, and Vercel",
+          "Extensive database modeling and query optimization with MongoDB, PostgreSQL, SQLite, and Redis caching",
+          "Built real-time data streaming architectures with WebSockets, SSE (Server-Sent Events), and event-driven backends",
+          "Implemented secure authentication protocols, JWT, OAuth, rate limiting, and API gateways"
+        ]
+      },
+      {
+        "name": "Algorithmic Trading & Real-Time Financial Engineering",
+        "icon": "fa fa-line-chart",
+        "experience": [
+          "Developed algorithmic trading bots in Deno & TypeScript implementing RSI, MACD, Bollinger Bands, and custom quantitative indicators",
+          "Integrated exchange WebSocket feeds for ultra-low latency price ingestion and order book analysis",
+          "Implemented risk management, automated stop-loss/take-profit triggers, and position sizing logic"
+        ]
+      },
+      {
+        "name": "Full-Stack Development & High-Performance Web Apps",
+        "icon": "fa fa-laptop",
+        "experience": [
+          "Engineered high-performance web applications using Next.js (SSR/SSG), React, and Fresh",
+          "Cross-platform mobile application development using React Native and native integrations",
+          "SEO optimization, web performance profiling (Core Web Vitals), and accessibility standards",
+          "CI/CD automation, Git workflows, Docker containerization, and modern cloud deployment strategies"
         ]
       }
     ]
