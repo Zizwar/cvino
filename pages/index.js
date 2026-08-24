@@ -18,6 +18,24 @@ export default function Home() {
                 <header className="header">
                     <h1>{cv.name}</h1>
                     <h3>{cv.subName}</h3>
+                    <div className="header-actions">
+                        <a 
+                            href="/cv-ibrahim-bidi.pdf" 
+                            download="Ibrahim_Bidi_CV.pdf"
+                            className="header-download-btn header-pdf-btn"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            <i className="fa fa-file-pdf-o"></i> Download CV (PDF)
+                        </a>
+                        <a 
+                            href="/cv-ibrahim-bidi.docx" 
+                            download="Ibrahim_Bidi_CV.docx"
+                            className="header-download-btn header-docx-btn"
+                        >
+                            <i className="fa fa-file-word-o"></i> Download CV (DOCX)
+                        </a>
+                    </div>
                 </header>
 
                 <div className="main-body">
@@ -40,6 +58,28 @@ export default function Home() {
                                     <i className="fa fa-envelope" style={{ marginRight: '10px', color: '#ffc107', width: '16px' }}></i>
                                     <a href={`mailto:${cv.mail || 'zip.exe@gmail.com'}`}>{cv.mailbox}</a>
                                 </p>
+                            )}
+
+                            {cv.downloads && cv.downloads.length > 0 && (
+                                <div style={{ marginTop: '25px' }}>
+                                    <Line title="Download Resume" />
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '12px' }}>
+                                        {cv.downloads.map((item, idx) => (
+                                            <a
+                                                key={idx}
+                                                href={item.url}
+                                                download={item.filename}
+                                                className={`cv-download-btn ${item.format.toLowerCase()}-btn`}
+                                                target={item.format === 'PDF' ? '_blank' : undefined}
+                                                rel={item.format === 'PDF' ? 'noopener noreferrer' : undefined}
+                                            >
+                                                <i className={item.icon || 'fa fa-download'} style={{ fontSize: '16px' }}></i>
+                                                <span>{item.title}</span>
+                                                <i className="fa fa-arrow-down" style={{ fontSize: '12px', marginLeft: 'auto', opacity: 0.8 }}></i>
+                                            </a>
+                                        ))}
+                                    </div>
+                                </div>
                             )}
 
                             {cv.links && cv.links.length > 0 && (

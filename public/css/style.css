@@ -220,6 +220,97 @@ a:hover:after {
 small{
   word-break: break-all;
 }
+
+/* CV Download Buttons */
+.cv-download-btn {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  width: 100%;
+}
+.cv-download-btn:before, .cv-download-btn:after {
+  display: none !important;
+}
+.cv-download-btn.pdf-btn {
+  background: #dc3545;
+  color: #ffffff !important;
+  border: 1px solid #c82333;
+}
+.cv-download-btn.pdf-btn:hover {
+  background: #bd2130;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(220, 53, 69, 0.4);
+}
+.cv-download-btn.docx-btn {
+  background: #0d6efd;
+  color: #ffffff !important;
+  border: 1px solid #0b5ed7;
+}
+.cv-download-btn.docx-btn:hover {
+  background: #0b5ed7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(13, 110, 253, 0.4);
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+  margin-left: 370px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header-actions * {
+  margin-left: 0 !important;
+}
+.header-download-btn {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 20px;
+  border-radius: 25px;
+  font-size: 13.5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.header-download-btn:before, .header-download-btn:after {
+  display: none !important;
+}
+.header-download-btn.header-pdf-btn {
+  background: #1e293b;
+  color: #ffffff !important;
+  border: 2px solid #1e293b;
+}
+.header-download-btn.header-pdf-btn:hover {
+  background: #dc3545;
+  border-color: #dc3545;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(220, 53, 69, 0.35);
+}
+.header-download-btn.header-docx-btn {
+  background: #ffffff;
+  color: #1e293b !important;
+  border: 2px solid #1e293b;
+}
+.header-download-btn.header-docx-btn:hover {
+  background: #0d6efd;
+  color: #ffffff !important;
+  border-color: #0d6efd;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(13, 110, 253, 0.35);
+}
+
 @media screen and (max-width: 650px) {
   .wrapper {
     min-width: inherit;
@@ -253,7 +344,11 @@ small{
     margin-top:30px;
   }
   .header h3 {
-    margin-bottom:50px;
+    margin-bottom: 20px;
+  }
+  .header-actions {
+    margin-left: 0px !important;
+    margin-bottom: 30px;
   }
   .side .photo {
     display: none;
