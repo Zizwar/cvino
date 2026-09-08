@@ -50,7 +50,7 @@ export default function Home() {
                             {cv.mobile && (
                                 <p>
                                     <i className="fa fa-phone" style={{ marginRight: '10px', color: '#ffc107', width: '16px' }}></i>
-                                    <a href={`tel:${cv.phoneRaw || '0648188181'}`}>{cv.mobile}</a>
+                                    <a href={`tel:${cv.phoneRaw || ''}`}>{cv.mobile}</a>
                                 </p>
                             )}
                             {cv.mailbox && (

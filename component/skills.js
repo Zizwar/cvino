@@ -10,7 +10,7 @@ export default function Skill({ data = {} }) {
 
                 return (
                     <div key={`dv-${index}`}>
-                        <p>{skillName} [{percent}%]</p>
+                        <p>{skillName}</p>
                         {[...Array(maxDivs).keys()].map((i) => (
                             <span key={`ck-${i}`} className="box-ck"></span>
                         ))}
