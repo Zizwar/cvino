@@ -28,13 +28,6 @@ export default function Home() {
                         >
                             <i className="fa fa-file-pdf-o"></i> Download CV (PDF)
                         </a>
-                        <a 
-                            href="/cv-ibrahim-bidi.docx" 
-                            download="Ibrahim_Bidi_CV.docx"
-                            className="header-download-btn header-docx-btn"
-                        >
-                            <i className="fa fa-file-word-o"></i> Download CV (DOCX)
-                        </a>
                     </div>
                 </header>
 
